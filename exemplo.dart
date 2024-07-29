@@ -26,7 +26,7 @@ class Aluno extends Pessoa {
   @override
   void apresentar() {
     super.apresentar();
-    print("Minha matricula é $matricula.");
+    print("Minha matrícula é $matricula.");
   }
 }
 
@@ -56,8 +56,8 @@ class Empresa {
   }
 }
 
-void main(List<String> args) {
-  Aluno aluno = Aluno("João", 18, "9516573");
+void main() {
+  Aluno aluno = Aluno("João", 20, "753221589");
   aluno.apresentar();
 
   Endereco endereco = Endereco("Rua A", "Cidade B");
